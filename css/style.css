@@ -1,0 +1,672 @@
+/*Colores*/
+
+/* Color Theme Swatches in Hex */
+.Naranja {color: rgba(232,119,44);}
+.NaranjaHover {color: rgba(255,129,46);}
+.AzulFuerte {color: rgba(17,60,79);}
+.AzulClaro {color: rgba(18,130,187);}
+.VerdeAcento {color: rgba(67,126,69);}
+.CafeTextos {color: rgba(39,29,12);}
+
+
+
+/*Fonts*/
+
+body {font-family: 'Poppins', sans-serif !important}
+h1 {font-family: 'Qwigley', cursive;} 
+h4 {font-family: 'Qwigley', cursive !important;} 
+
+h2,h3, h5 {font-family: 'Playfair Display', serif !important;
+}
+
+/*Títulos*/
+
+h1 {
+  display: block;
+  font-size: 150px;
+  margin-top: 0.2em;
+  margin-bottom: 0.0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+ h2 {
+	 display: block;
+	 font-size: 50px;
+	 margin-top: 0.67em;
+	 margin-bottom: 0.67em;
+	 margin-left: 0;
+	 margin-right: 0;
+	 font-weight: 600;
+	 font-family: serif;
+     color: rgba(17,60,79);
+
+ }
+
+ h3 {
+ 	display: block;
+	font-size: 20px;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: 500;
+	font-family: sans-serif;
+    color: rgba(17,60,79);
+ }
+
+ h5 {
+    color: rgba(17,60,79);
+ }
+
+.d-none { display: block; height: 1px;
+    border: 0; border-top: 1px solid #FFF;
+    margin: 1em 0; padding: 0; }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #ffad6654;
+}
+
+
+/*Textos*/  
+
+i {
+    font-style: italic;
+    color:rgba(17,60,79);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(17,60,79);
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.centrar-texto { 
+
+    margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 60px;
+    text-align: center;
+ }
+
+.text-white {
+    color:FFFF;
+}
+
+.container-contacto {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container-paquetes {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Header*/
+
+.p_header {
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.title_h1{
+    margin-top: 0;
+    font-size: 120px;
+}
+
+
+
+
+/*.btn-primary {
+    color: #f8f9fa;
+    background-color: #fe8f3a;
+    border-color: #fe8e3a;
+    background-image: linear-gradient(to bottom,#ffc107 0,#FFCF17 100%);
+
+}
+
+.btn-primary:hover {
+    color: #f8f9fa;
+    background-color: #FF740D;
+    border-color: #fe8e3a;
+}
+
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #FF740D!important;
+    border-color: #fe8e3a;
+    box-shadow: 0 0 0 0.2rem rgba(255, 250, 223,.2);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: rgb(255, 250, 223);
+    background-color: rgb(255, 250, 223);
+    box-shadow: rgba(255, 250, 223, 0.5) 0px 0px 0px 0.2rem;
+    border-color: rgb(255, 250, 223);
+    border-top-color: rgb(255, 250, 223);
+    border-right-color: rgb(255, 250, 223);
+    border-bottom-color: rgb(255, 250, 223);
+    border-left-color: rgb(255, 250, 223);
+}
+*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF8D2B;
+    border-color: #FF8D2B; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #FF8D2B;
+    border-color: #FF8D2B; /*set the color you want here*/
+
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43);
+    box-shadow: rgba(38, 143, 255, 0.5) 0px 0px 0px 0.2rem;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43);
+    box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5) !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43);
+    box-shadow: 0 0 0 0.2rem rgba(255, 141, 43,.5) !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.dropdown-item:active {
+        background-color: rgba(255, 249, 219, 0.5) !important;
+}
+
+.button:active, 
+ button:active,
+.button:focus, 
+ button:focus,
+.button:hover, 
+ button:hover{
+    border:none !important;
+    outline:none !important;
+}
+
+/*NavBar*/
+
+/*.bg-light {
+background: linear-gradient(to right, #e06337, #ff8d2b), url() no-repeat top center;
+}
+*/
+.bg-light {
+background: linear-gradient(to right, #FF8D2B, #FF8D2B), url() no-repeat top center;
+}
+
+/*.navbar-nav .nav-link {
+    color: rgba(58, 39, 6, 0.83)!important;
+}*/
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fffffd !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fbfbfb;
+}
+
+.navbar-brand {
+    color: #fbfbfb !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fbfbfb;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #FF8D2B; }
+
+.dropdown-item:hover{
+  /*Modifica lo que quieras*/
+  background:#FF8D2B;
+  color:white;
+            }
+/*Botonwhatsapp*/
+
+.floating-wpp .floating-wpp-button svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+
+.floating-wpp {z-index: 2;}
+
+
+/*Tamaño de secciones
+*/
+
+header {
+    /* cambio a flexbox para poder centrar verticalmente */
+    /* padding-top: 6rem;
+    padding-bottom: 6rem; */
+    display: flex;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapiaprincipal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 91vh;
+    align-content: center;
+    align-items: center;
+}
+
+.modal-body	{
+    color:black;
+}
+
+
+
+
+ /*Imágenes*/
+
+ /*tamaños*/
+
+/* tamaño imagen karla*/
+
+.tamaño_icon{
+        height:50px;
+        width: 50px
+}
+
+
+.t_karla {
+	height:auto;
+	width: 260px
+}
+
+/*Tamaño imagen anahuac*/
+.t_anahuac {
+    margin-top: 0vh;
+    height: 86%;
+    width: auto;
+}
+
+/*Áreas de atención
+*/
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+
+/*Experiencia*/
+
+.extend-text {    
+    margin-left: -68px;
+    margin-right: -68px;
+}
+
+#Experiencia {
+
+    font-size:18px;
+    background-image: linear-gradient(to bottom right, rgb(255, 212, 114), rgb(255, 212, 114)));
+
+}
+
+.img-experiencia {
+    max-width: 100%;
+    height:auto;
+}
+
+.img-fluid-pattern {
+    opacity: 0.2;
+    max-width: 200%;
+    height: auto;
+    margin-left: -52vw;
+    position: absolute;
+    margin-top: -13vw;
+    z-index: -1;
+}
+
+.img-dospattern {
+    opacity: 0.8;
+    max-width: 200%;
+    height: auto;
+    margin-left: 0vw;
+    position: absolute;
+    margin-top: 0vw;
+    z-index: -1;
+}
+
+.img-pattern-vertical{
+    opacity: 0.8;
+    max-width: 200%;
+    height: auto;
+    margin-left: 0vw;
+    position: relative;
+    margin-top: 0vw;
+    z-index: -1;
+}
+
+.img-pattern-vertical-izquierdo{
+    opacity: 0.8;
+    max-width: 200%;
+    height: auto;
+    margin-left: 15vw;
+    position: absolute;
+    margin-top: 0vw;
+    z-index: -1;
+}
+
+.absolute_text_left{
+    position:absolute;
+    margin-left: -8vw;
+    }
+
+.absolute_text_right{
+    position: absolute;
+    margin-left: 2vw;
+    margin-right: -10vw;
+}
+
+.margin-left {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 125px;
+}
+
+.margin-right {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 70px;
+}
+
+.img-experiencia {
+    max-width: 100%;
+    height: auto;
+    margin-left: 123px;
+}
+/*Alineación Areas de atención*/
+
+
+
+.areasdeatencion {
+	font-size: 30px;
+	font-family: 'Vollkorn', serif;
+}
+
+/*Seccion Areas de atencion*/
+
+.circle {
+	height: 150px;
+	width: auto;
+	border-radius: 50%;
+}
+
+.line {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(255, 141, 43);
+}
+
+.line-pareja {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(0, 102, 150);
+
+}
+
+.line-familia{
+    height: 8px;
+    width: 100%;
+    background-color: rgb(76,178,67);
+
+}
+
+.padding-pareja {
+    padding-right: 0vh;
+}
+
+
+
+/*Seccion areas de terapia*/
+#Saladeterapia {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/consultorio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*Sección cursos precios*/
+
+.card-img, .card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+/*Seccion nota*/
+
+#Nota {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapeuta.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.border_sala {
+    height: 560px;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 1.5px !important;
+    border-style: solid !important;
+    border-color: rgb(255, 255, 255) !important;
+}
+
+/*Información importante
+*/
+
+.removecssa, .removecssa:hover {
+    color:white;
+    all:unset;
+}
+
+
+
+.border_nota {
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-width: 1.5px !important;
+    border-style: solid !important;
+    border-color: rgb(255, 255, 255) !important;
+}
+/*footer*/
+
+footer p {
+    font-size: 16px;
+    color:#FFFF;
+}
+
+/*footer {
+  background-image: linear-gradient(to bottom right, rgb(255, 212, 114), rgb(255, 249, 219));
+}*/
+
+footer {
+ background: linear-gradient(to right, rgb(255, 141, 43), rgb(255, 141, 43)), url(style.css) center top no-repeat;;
+}
+
+.icon-footer {
+    color:#FFFF;
+}
+.a-footer {
+    font-size: 14px;
+    color:#FFFF;
+}
+
+.card-transparent {
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+.tamaño-qr{
+    height: 50%;
+    width: auto;
+    padding-top: 0px;
+}
+
+footer >.container> .row >.col-md-4{
+        min-width: 380px;
+    }
+
+.map_location{
+    margin: 1em;
+}
+
+.google_map{
+    margin: .5em 0;
+}
+/*Querymedia*/
+@media only screen and (max-width: 950px) {
+    .card-deck{
+        display: flex!important;
+        /* border: solid 1px blue; */
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 1em!important;
+    }
+
+    #Saladeterapia {
+        height:700px;
+    }
+
+    .border_sala {
+        height: 650px;
+    }
+
+    footer >.container> .row{
+        flex-direction: column;
+    }
+
+    footer >.container> .row >.col-md-4{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+     .img-dospattern, .img-pattern-vertical, .img-pattern-vertical-izquierdo, .img-fluid-pattern {
+        display:none;
+     }
+
+     .img-experiencia {
+    max-width: 100%;
+    height: auto;
+    margin-left: 15px;
+    }
+
+    .margin-left {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+
+    .title_h1{
+        margin-top: 20px;
+        font-size: 90px;
+    }
+    #Saladeterapia {
+        height:830px;
+    }
+
+    .border_sala {
+        height: 790px;
+    }
+
+    .map_location{
+        max-width: 90%;
+    }
+}
